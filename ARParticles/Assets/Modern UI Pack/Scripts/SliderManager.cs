@@ -53,14 +53,14 @@ public class SliderManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         {
             if (usePercent == true)
             {
-                valueText.text = mainSlider.value.ToString("F1") + "%";
-                popupValueText.text = mainSlider.value.ToString("F1") + "%";
+                valueText.text = mainSlider.value.ToString("F2") + "%";
+                popupValueText.text = mainSlider.value.ToString("F2") + "%";
             }
 
             else
             {
-                valueText.text = mainSlider.value.ToString("F1");
-                popupValueText.text = mainSlider.value.ToString("F1");
+                valueText.text = mainSlider.value.ToString("F2");
+                popupValueText.text = mainSlider.value.ToString("F2");
             }
         }
     }
