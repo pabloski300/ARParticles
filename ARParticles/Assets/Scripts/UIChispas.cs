@@ -13,6 +13,8 @@ public class UIChispas : MonoBehaviour {
     public Slider green;
     public Slider blue;
 
+    public Slider particleNumber;
+
     // Use this for initialization
     void Start () {
         
@@ -21,7 +23,9 @@ public class UIChispas : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         var main = ps.main;
+        var emmisor = ps.emission;
         main.startColor = new Color(red.value,green.value,blue.value);
+        emmisor.rateOverTime = particleNumber.value;
 	}
 
     public void SetActive(bool active)
