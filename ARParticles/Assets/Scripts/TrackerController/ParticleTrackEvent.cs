@@ -4,7 +4,7 @@ using System.Collections;
 public class ParticleTrackEvent : DefaultTrackableEventHandler
 {
 
-    UIController particleUIController;
+    UIChispas particleUIController;
     new void  Start()
     {
         base.Start();
@@ -25,6 +25,6 @@ public class ParticleTrackEvent : DefaultTrackableEventHandler
 
     private void Awake()
     {
-        particleUIController = GetComponentInChildren<UIController>();
+        particleUIController = GetComponentInChildren<UIChispas>();
     }
 }

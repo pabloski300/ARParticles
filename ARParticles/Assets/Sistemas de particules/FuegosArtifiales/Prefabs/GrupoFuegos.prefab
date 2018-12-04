@@ -176,13 +176,14 @@ GameObject:
   - component: {fileID: 199745424686983946}
   - component: {fileID: 65687895808985684}
   - component: {fileID: 114184877883131290}
+  - component: {fileID: 114731667303792250}
   m_Layer: 0
   m_Name: GrupoFuegos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1706396267583632
 GameObject:
   m_ObjectHideFlags: 1
@@ -562,8 +563,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fd45d2736033644b85c52ed8f669aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotSpeed: 20
+  rotSpeed: 100
   active: 0
+--- !u!114 &114731667303792250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1524700069311478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2674d60e798bc0c44aa676b534b43021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pss:
+  - {fileID: 198435754912909642}
+  - {fileID: 198747792770599492}
+  - {fileID: 198714949828557970}
+  - {fileID: 198682278424724084}
+  Canvas: {fileID: 0}
+  red: {fileID: 0}
+  green: {fileID: 0}
+  blue: {fileID: 0}
+  particleNumber: {fileID: 0}
+  emissors: {fileID: 0}
 --- !u!198 &198027644626299274
 ParticleSystem:
   m_ObjectHideFlags: 1

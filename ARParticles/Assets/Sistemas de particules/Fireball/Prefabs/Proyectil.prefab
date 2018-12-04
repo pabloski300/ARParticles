@@ -63,7 +63,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1602085766091774
 GameObject:
   m_ObjectHideFlags: 1
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fd45d2736033644b85c52ed8f669aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotSpeed: 20
+  rotSpeed: 100
   active: 0
 --- !u!198 &198084787899279800
 ParticleSystem:
