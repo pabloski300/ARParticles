@@ -3,19 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIFuegosArticiales : MonoBehaviour {
+public class UIFuegosArticiales : UIController {
     public ParticleSystem[] pss;
-
-    public GameObject Canvas;
-
     public Slider red;
     public Slider green;
     public Slider blue;
-
     public Slider particleNumber;
-
     public Slider emissors;
-
     // Use this for initialization
     void Start()
     {
@@ -52,9 +46,4 @@ public class UIFuegosArticiales : MonoBehaviour {
         }
     }
 
-    public void SetActive(bool active)
-    {
-        Canvas.SetActive(active);
-        this.gameObject.SetActive(active);
-    }
 }

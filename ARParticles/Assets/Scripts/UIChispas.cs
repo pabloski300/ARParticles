@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIChispas : MonoBehaviour {
+public class UIChispas : UIController
+{
     public ParticleSystem ps;
-
-    public GameObject Canvas;
-
     public Slider red;
     public Slider green;
     public Slider blue;
-
     public Slider particleNumber;
 
     // Use this for initialization
@@ -32,9 +29,5 @@ public class UIChispas : MonoBehaviour {
         }
     }
 
-    public void SetActive(bool active)
-    {
-        Canvas.SetActive(active);
-        this.gameObject.SetActive(active);
-    }
+   
 }

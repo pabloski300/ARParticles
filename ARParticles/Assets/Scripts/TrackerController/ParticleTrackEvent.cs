@@ -4,7 +4,7 @@ using System.Collections;
 public class ParticleTrackEvent : DefaultTrackableEventHandler
 {
 
-    UIChispas particleUIController;
+    UIController particleUIController;
     new void  Start()
     {
         base.Start();
@@ -15,6 +15,10 @@ public class ParticleTrackEvent : DefaultTrackableEventHandler
     {
         base.OnTrackingFound();
         particleUIController.SetActive(true);
+        if (!ClickDetection.Instance.hasSelected())
+        {
+            ClickDetection.Instance.setSelected(particleUIController);
+        }
     }
 
     protected override void OnTrackingLost()
@@ -25,6 +29,6 @@ public class ParticleTrackEvent : DefaultTrackableEventHandler
 
     private void Awake()
     {
-        particleUIController = GetComponentInChildren<UIChispas>();
+        particleUIController = GetComponentInChildren<UIController>();
     }
 }
