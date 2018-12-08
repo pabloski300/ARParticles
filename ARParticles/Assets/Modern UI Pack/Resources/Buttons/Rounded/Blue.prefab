@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224809699154480166}
   - component: {fileID: 222184716507503934}
   - component: {fileID: 114989066213164850}
+  - component: {fileID: 114904217662970640}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -39,6 +40,8 @@ GameObject:
   - component: {fileID: 222624275188434238}
   - component: {fileID: 114770514942143934}
   - component: {fileID: 114783213290905570}
+  - component: {fileID: 114131073434149600}
+  - component: {fileID: 114980923283545442}
   m_Layer: 5
   m_Name: Blue
   m_TagString: Untagged
@@ -46,6 +49,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114131073434149600
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977399228150834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1977399228150834}
+    - {fileID: 1829946150579546}
+  _assetGuid: 47c26c0ae6fda4a4396e496d4510e6a0
 --- !u!114 &114770514942143934
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -114,6 +134,30 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114904217662970640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829946150579546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 346d2831-235d-4ce4-ae8c-572d4274a5a3
+--- !u!114 &114980923283545442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977399228150834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: d098b491-3d2d-4f04-9ff5-4c578242e97d
 --- !u!114 &114989066213164850
 MonoBehaviour:
   m_ObjectHideFlags: 1

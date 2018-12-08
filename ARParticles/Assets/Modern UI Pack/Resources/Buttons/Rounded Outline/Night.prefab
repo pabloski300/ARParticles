@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224092715887107842}
   - component: {fileID: 222591778791517452}
   - component: {fileID: 114788421695883620}
+  - component: {fileID: 114600735797977560}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -38,6 +39,7 @@ GameObject:
   - component: {fileID: 224651795814376252}
   - component: {fileID: 222492653079614006}
   - component: {fileID: 114332887347645610}
+  - component: {fileID: 114988123968367692}
   m_Layer: 5
   m_Name: Text Highlighted
   m_TagString: Untagged
@@ -55,6 +57,7 @@ GameObject:
   - component: {fileID: 224933188090964836}
   - component: {fileID: 222025438833695126}
   - component: {fileID: 114273695150699530}
+  - component: {fileID: 114335428322675868}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -74,6 +77,8 @@ GameObject:
   - component: {fileID: 114576057850916662}
   - component: {fileID: 114675568814143822}
   - component: {fileID: 95542501962383638}
+  - component: {fileID: 114350372289385840}
+  - component: {fileID: 114713565991495088}
   m_Layer: 5
   m_Name: Night
   m_TagString: Untagged
@@ -159,6 +164,37 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: NIGHT
+--- !u!114 &114335428322675868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586432603423012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 282f8474-ecd0-4005-b6f3-b66f580a1d0d
+--- !u!114 &114350372289385840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1941392680325684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1941392680325684}
+    - {fileID: 1586432603423012}
+    - {fileID: 1415807683636272}
+    - {fileID: 1228961441712076}
+  _assetGuid: f070ec684b894fb40901ae0dba082ba3
 --- !u!114 &114576057850916662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -186,6 +222,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114600735797977560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1228961441712076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 80901912-cff7-40bb-b4cd-5fd45c391d42
 --- !u!114 &114675568814143822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -227,6 +275,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114713565991495088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1941392680325684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3f60610e-bee9-41f6-a76b-5df30d2facb1
 --- !u!114 &114788421695883620
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -260,6 +320,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: NIGHT
+--- !u!114 &114988123968367692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1415807683636272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: f7b41f44-cf8e-4c2d-9dec-36502e9ba4bb
 --- !u!222 &222025438833695126
 CanvasRenderer:
   m_ObjectHideFlags: 1

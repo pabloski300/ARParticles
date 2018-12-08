@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224834219959194300}
   - component: {fileID: 222832495025505118}
   - component: {fileID: 114852843149828548}
+  - component: {fileID: 114706736533026756}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -38,6 +39,7 @@ GameObject:
   - component: {fileID: 224732707048494334}
   - component: {fileID: 222191745385135374}
   - component: {fileID: 114383292156234022}
+  - component: {fileID: 114611346934816930}
   m_Layer: 5
   m_Name: Filled
   m_TagString: Untagged
@@ -55,6 +57,7 @@ GameObject:
   - component: {fileID: 224362748735753000}
   - component: {fileID: 222510289105140258}
   - component: {fileID: 114010392638535664}
+  - component: {fileID: 114112049220268444}
   m_Layer: 5
   m_Name: Placeholder
   m_TagString: Untagged
@@ -70,6 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224238667467652780}
+  - component: {fileID: 114004217480445582}
   m_Layer: 5
   m_Name: EDIT TEXT FROM PARENT OBJECT
   m_TagString: Untagged
@@ -88,6 +92,7 @@ GameObject:
   - component: {fileID: 222754948522808526}
   - component: {fileID: 114816456916420568}
   - component: {fileID: 114498960523222766}
+  - component: {fileID: 114711471477229556}
   m_Layer: 5
   m_Name: Field Trigger
   m_TagString: Untagged
@@ -105,6 +110,7 @@ GameObject:
   - component: {fileID: 224320276424644138}
   - component: {fileID: 222908091370833446}
   - component: {fileID: 114960052104931024}
+  - component: {fileID: 114753848214284044}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -125,6 +131,8 @@ GameObject:
   - component: {fileID: 114765223378781372}
   - component: {fileID: 95949060652507868}
   - component: {fileID: 114290015820492886}
+  - component: {fileID: 114290981139001866}
+  - component: {fileID: 114912596848370648}
   m_Layer: 5
   m_Name: Fading Input Field (Left Aligned)
   m_TagString: Untagged
@@ -150,6 +158,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114004217480445582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1571499203356688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 6b3ca1d0-3c71-480b-8bff-08dc6f98a066
 --- !u!114 &114010392638535664
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -183,6 +203,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Title Text
+--- !u!114 &114112049220268444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1468232482937178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 470267d8-226d-4a9b-817e-a1036f10eeea
 --- !u!114 &114290015820492886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -213,6 +245,28 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &114290981139001866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1985611731384436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1985611731384436}
+    - {fileID: 1571499203356688}
+    - {fileID: 1576179241504122}
+    - {fileID: 1738656040900094}
+    - {fileID: 1066192847703050}
+    - {fileID: 1468232482937178}
+    - {fileID: 1022768942065948}
+  _assetGuid: a77e2c4748edcd5429717838a8f70fb0
 --- !u!114 &114344214311766364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -361,6 +415,54 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &114611346934816930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1066192847703050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 63de031d-d171-4fe6-839e-9b2069fc8ecd
+--- !u!114 &114706736533026756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1022768942065948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 7fbab0c2-ce09-4231-be15-da6d9317d8db
+--- !u!114 &114711471477229556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576179241504122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: dd27fa1e-742d-4f6c-b51d-62fbbbe53ebd
+--- !u!114 &114753848214284044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738656040900094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: c8684d35-c7bf-4002-bc54-3a657941131d
 --- !u!114 &114765223378781372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -435,6 +537,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &114912596848370648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1985611731384436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 5a09bbe1-e4f7-4ac0-9f8a-73353b9efa27
 --- !u!114 &114960052104931024
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224909382112182192}
   - component: {fileID: 222902828998906974}
   - component: {fileID: 114884790226020720}
+  - component: {fileID: 114839200755780424}
   m_Layer: 5
   m_Name: Outline
   m_TagString: Untagged
@@ -38,6 +39,8 @@ GameObject:
   - component: {fileID: 224758189840388788}
   - component: {fileID: 222192385142787552}
   - component: {fileID: 95831045415246652}
+  - component: {fileID: 114057585439598930}
+  - component: {fileID: 114271911425185640}
   m_Layer: 5
   m_Name: Circle Glass
   m_TagString: Untagged
@@ -63,6 +66,47 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114057585439598930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1566842107358528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1566842107358528}
+    - {fileID: 1129363117847690}
+  _assetGuid: 8fd5fe52a732dec4cbd41e936f97be53
+--- !u!114 &114271911425185640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1566842107358528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: a4850f2e-f777-4f56-bccf-364621fc8c23
+--- !u!114 &114839200755780424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1129363117847690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 680b56da-1784-48fe-8cc2-a96b11a9767c
 --- !u!114 &114884790226020720
 MonoBehaviour:
   m_ObjectHideFlags: 1

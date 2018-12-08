@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224598007138463916}
   - component: {fileID: 222895578251207502}
   - component: {fileID: 114132128940158016}
+  - component: {fileID: 114719010537014384}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -39,6 +40,8 @@ GameObject:
   - component: {fileID: 222008335444168830}
   - component: {fileID: 114684673734823388}
   - component: {fileID: 114574296396564822}
+  - component: {fileID: 114840608876775588}
+  - component: {fileID: 114969947169809480}
   m_Layer: 5
   m_Name: Night
   m_TagString: Untagged
@@ -147,6 +150,47 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114719010537014384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1518299092929848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 503ff51d-2e21-4769-ad0d-8ec1b5cd4db7
+--- !u!114 &114840608876775588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560584361359722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1560584361359722}
+    - {fileID: 1518299092929848}
+  _assetGuid: 800ce624678abc04983ac5c0782983b8
+--- !u!114 &114969947169809480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560584361359722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 5f6cb284-4d7c-4a48-a6c6-2133e33979b7
 --- !u!222 &222008335444168830
 CanvasRenderer:
   m_ObjectHideFlags: 1

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224254862225929378}
   - component: {fileID: 222158330710844688}
   - component: {fileID: 114187610485492796}
+  - component: {fileID: 114682629480409394}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -39,6 +40,8 @@ GameObject:
   - component: {fileID: 222675897915768400}
   - component: {fileID: 114896927789185030}
   - component: {fileID: 114234084634781448}
+  - component: {fileID: 114259998198575482}
+  - component: {fileID: 114976334485292876}
   m_Layer: 5
   m_Name: Gray
   m_TagString: Untagged
@@ -114,6 +117,35 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114259998198575482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933862385164388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1933862385164388}
+    - {fileID: 1440880393685128}
+  _assetGuid: acc9173f624cfe04facc24dc2ab625e8
+--- !u!114 &114682629480409394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440880393685128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: fa4288de-3ca5-46e5-9a2e-69117c7f187d
 --- !u!114 &114896927789185030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -141,6 +173,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114976334485292876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933862385164388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 0da7a907-334d-4624-b9aa-e36c57176e25
 --- !u!222 &222158330710844688
 CanvasRenderer:
   m_ObjectHideFlags: 1

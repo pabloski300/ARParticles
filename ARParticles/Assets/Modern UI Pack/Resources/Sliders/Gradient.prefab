@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 114306075799811430}
   - component: {fileID: 114199235692951552}
   - component: {fileID: 222575381082469588}
+  - component: {fileID: 114213360812679804}
+  - component: {fileID: 114278670319550800}
   m_Layer: 5
   m_Name: Gradient
   m_TagString: Untagged
@@ -37,6 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224449465035708934}
+  - component: {fileID: 114469100727405714}
   m_Layer: 5
   m_Name: Handle Slide Area
   m_TagString: Untagged
@@ -54,6 +57,7 @@ GameObject:
   - component: {fileID: 224249555390867250}
   - component: {fileID: 222368451939664088}
   - component: {fileID: 114177601668523486}
+  - component: {fileID: 114218394648907946}
   m_Layer: 5
   m_Name: Handle
   m_TagString: Untagged
@@ -72,6 +76,7 @@ GameObject:
   - component: {fileID: 222294049942925714}
   - component: {fileID: 114136270296185426}
   - component: {fileID: 114564249419632698}
+  - component: {fileID: 114393529177786304}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -88,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224348612314296668}
   - component: {fileID: 222186099971704696}
+  - component: {fileID: 114744527739086312}
   m_Layer: 5
   m_Name: Fill Area
   m_TagString: Untagged
@@ -105,6 +111,7 @@ GameObject:
   - component: {fileID: 224088588453411778}
   - component: {fileID: 222988436089536904}
   - component: {fileID: 114752198115855290}
+  - component: {fileID: 114918316388295132}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -122,6 +129,7 @@ GameObject:
   - component: {fileID: 224910167456883978}
   - component: {fileID: 222627008698699668}
   - component: {fileID: 114190715531903328}
+  - component: {fileID: 114434711104910326}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -222,6 +230,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 1
+--- !u!114 &114213360812679804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1140875577130006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1140875577130006}
+    - {fileID: 1867576468935660}
+    - {fileID: 1501942862685320}
+    - {fileID: 1589625456574460}
+    - {fileID: 1806120278882560}
+    - {fileID: 1262015230121506}
+    - {fileID: 1421748727450196}
+  _assetGuid: c8d7928b1d7483b4b8f5e38ccdd1e1e0
+--- !u!114 &114218394648907946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1421748727450196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3dfe734b-332c-4976-92f4-c4858a611d0f
+--- !u!114 &114278670319550800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1140875577130006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3e7b1666-329a-4c50-ab0f-f9e04f6c08aa
 --- !u!114 &114306075799811430
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -270,6 +324,42 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114393529177786304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501942862685320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3cd4caa8-dd0e-48ae-98a5-659d41969566
+--- !u!114 &114434711104910326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1867576468935660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3ef57d0d-ff3c-4626-b579-621ad6884ccb
+--- !u!114 &114469100727405714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1262015230121506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: ab653c7d-8d96-4ff4-be4c-45a017ab561c
 --- !u!114 &114564249419632698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -282,6 +372,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
+--- !u!114 &114744527739086312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589625456574460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 1acced6d-a4a5-41c3-9ef8-e7d32ad2a6ea
 --- !u!114 &114752198115855290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -309,6 +411,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114918316388295132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1806120278882560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 33d3b4c6-7303-4356-b26b-8e5a59b6f05c
 --- !u!222 &222186099971704696
 CanvasRenderer:
   m_ObjectHideFlags: 1

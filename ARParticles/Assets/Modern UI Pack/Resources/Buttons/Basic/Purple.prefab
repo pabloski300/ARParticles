@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224806109546338128}
   - component: {fileID: 222216221522813754}
   - component: {fileID: 114632371501583468}
+  - component: {fileID: 114819701614688014}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -39,6 +40,8 @@ GameObject:
   - component: {fileID: 222483277616334286}
   - component: {fileID: 114318638988769186}
   - component: {fileID: 114739982800494034}
+  - component: {fileID: 114391669474660790}
+  - component: {fileID: 114908018292918168}
   m_Layer: 5
   m_Name: Purple
   m_TagString: Untagged
@@ -73,6 +76,23 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114391669474660790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493177651925128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1493177651925128}
+    - {fileID: 1032863406836156}
+  _assetGuid: 5febcfad03f192f45ba070ab14cf6794
 --- !u!114 &114632371501583468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,6 +167,30 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114819701614688014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032863406836156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 21494add-2e74-4c4d-8790-838237fe3fbf
+--- !u!114 &114908018292918168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493177651925128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 9c32cef0-75ad-4fa8-ae7c-a370f20950e2
 --- !u!222 &222216221522813754
 CanvasRenderer:
   m_ObjectHideFlags: 1

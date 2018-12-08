@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 222935170708894388}
   - component: {fileID: 114096337256996950}
   - component: {fileID: 114703574340936076}
+  - component: {fileID: 114468726175555474}
+  - component: {fileID: 114284333583461950}
   m_Layer: 5
   m_Name: Blue
   m_TagString: Untagged
@@ -39,6 +41,7 @@ GameObject:
   - component: {fileID: 224867414379185440}
   - component: {fileID: 222557209936559386}
   - component: {fileID: 114237359793818874}
+  - component: {fileID: 114805523884054418}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -106,6 +109,35 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: BLUE
+--- !u!114 &114284333583461950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589845349105156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 68b9cef2-35dd-4f09-abd8-712f425bc957
+--- !u!114 &114468726175555474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589845349105156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1589845349105156}
+    - {fileID: 1596075060662020}
+  _assetGuid: 0f01a18a54c6cd440a6bef85c0a4ac31
 --- !u!114 &114703574340936076
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,6 +179,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114805523884054418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596075060662020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: f6c5064b-d8e9-475b-8538-64bbb9d33ab6
 --- !u!222 &222557209936559386
 CanvasRenderer:
   m_ObjectHideFlags: 1

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224550136579813564}
   - component: {fileID: 222186261632675728}
   - component: {fileID: 114610137519995072}
+  - component: {fileID: 114348694996157298}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -40,6 +41,8 @@ GameObject:
   - component: {fileID: 114391108537606998}
   - component: {fileID: 114700436505367196}
   - component: {fileID: 114854470822372398}
+  - component: {fileID: 114749518990809834}
+  - component: {fileID: 114146654975073610}
   m_Layer: 5
   m_Name: Brown
   m_TagString: Untagged
@@ -47,6 +50,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114146654975073610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1971075158023514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: f28bd988-b9db-4e80-9b8b-f8b99faac47c
+--- !u!114 &114348694996157298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1460693117478274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 5a4e63fa-2adf-4182-8c90-748b7aa6a5f3
 --- !u!114 &114391108537606998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -148,6 +175,23 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114749518990809834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1971075158023514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1971075158023514}
+    - {fileID: 1460693117478274}
+  _assetGuid: cfedd60fd4413fe40a4ee91b342a7105
 --- !u!114 &114854470822372398
 MonoBehaviour:
   m_ObjectHideFlags: 1

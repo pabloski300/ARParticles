@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224666675592385442}
   - component: {fileID: 222435846217250464}
   - component: {fileID: 114176595589299514}
+  - component: {fileID: 114972427663170880}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -39,6 +40,8 @@ GameObject:
   - component: {fileID: 222278553192776386}
   - component: {fileID: 114613335266974908}
   - component: {fileID: 114349844316293156}
+  - component: {fileID: 114794984589227104}
+  - component: {fileID: 114104962828829412}
   m_Layer: 5
   m_Name: Gray
   m_TagString: Untagged
@@ -46,6 +49,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114104962828829412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928971273034634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 9e45b196-e91f-45bc-a322-31ffe1a8093b
 --- !u!114 &114176595589299514
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,6 +162,35 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114794984589227104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928971273034634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1928971273034634}
+    - {fileID: 1855778338763332}
+  _assetGuid: 6ef7b609a37968f40a06e126055e20d2
+--- !u!114 &114972427663170880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855778338763332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: ccf3f2c3-d47e-4be9-83fb-e195cf1aaaf9
 --- !u!222 &222278553192776386
 CanvasRenderer:
   m_ObjectHideFlags: 1

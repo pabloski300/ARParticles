@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224428576906730684}
   - component: {fileID: 222295213270687456}
   - component: {fileID: 114354613520712464}
+  - component: {fileID: 114741356401220256}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -39,6 +40,8 @@ GameObject:
   - component: {fileID: 222818039069922076}
   - component: {fileID: 114197317248266600}
   - component: {fileID: 114018669827021170}
+  - component: {fileID: 114896411983637946}
+  - component: {fileID: 114079395943964590}
   m_Layer: 5
   m_Name: Green
   m_TagString: Untagged
@@ -87,6 +90,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114079395943964590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1443076089318980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 9b65f5c4-f468-48dd-96c3-a1f94cc73735
 --- !u!114 &114197317248266600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,6 +162,35 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: GREEN
+--- !u!114 &114741356401220256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275117953257318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 6393e0dd-e3d8-4588-bdad-bac65edaa582
+--- !u!114 &114896411983637946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1443076089318980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1443076089318980}
+    - {fileID: 1275117953257318}
+  _assetGuid: 764f02a6ccbfd6c498a0c0ea94dcd8c7
 --- !u!222 &222295213270687456
 CanvasRenderer:
   m_ObjectHideFlags: 1

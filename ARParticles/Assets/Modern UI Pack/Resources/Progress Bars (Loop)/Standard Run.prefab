@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 222393274980552280}
   - component: {fileID: 114605421771862812}
   - component: {fileID: 114653038997490490}
+  - component: {fileID: 114113341214812104}
   m_Layer: 5
   m_Name: Bar
   m_TagString: Untagged
@@ -39,6 +40,7 @@ GameObject:
   - component: {fileID: 224954973390200910}
   - component: {fileID: 222690461396126290}
   - component: {fileID: 114338104998616262}
+  - component: {fileID: 114046016943887200}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -56,6 +58,8 @@ GameObject:
   - component: {fileID: 224681363656727084}
   - component: {fileID: 222605969877357492}
   - component: {fileID: 95066821710810290}
+  - component: {fileID: 114417286358952906}
+  - component: {fileID: 114721832261915896}
   m_Layer: 5
   m_Name: Standard Run
   m_TagString: Untagged
@@ -73,6 +77,7 @@ GameObject:
   - component: {fileID: 224399591467515760}
   - component: {fileID: 222660000713708822}
   - component: {fileID: 114048910829737646}
+  - component: {fileID: 114861929521822540}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -98,6 +103,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114046016943887200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205400758230020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 0940fc7d-1f90-473c-9b1d-4307306d1d45
 --- !u!114 &114048910829737646
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,6 +142,18 @@ MonoBehaviour:
   m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 2
+--- !u!114 &114113341214812104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196351031417502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: f2fec683-f6d6-4844-97ab-22062b7a2479
 --- !u!114 &114338104998616262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -152,6 +181,25 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114417286358952906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1308012282115178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1308012282115178}
+    - {fileID: 1205400758230020}
+    - {fileID: 1196351031417502}
+    - {fileID: 1645086057862728}
+  _assetGuid: 90dd219f89aa2f444bbe5e787171933e
 --- !u!114 &114605421771862812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -191,6 +239,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
+--- !u!114 &114721832261915896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1308012282115178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: bf353a52-242d-47b0-9212-9c4d14f64765
+--- !u!114 &114861929521822540
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645086057862728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 75b6055e-e8a6-40bb-b7a6-4d5cbb34212c
 --- !u!222 &222393274980552280
 CanvasRenderer:
   m_ObjectHideFlags: 1

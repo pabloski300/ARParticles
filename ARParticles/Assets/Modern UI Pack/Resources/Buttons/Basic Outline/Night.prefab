@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224586143585694038}
   - component: {fileID: 222126650432458236}
   - component: {fileID: 114934990959263186}
+  - component: {fileID: 114949475034957464}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -38,6 +39,7 @@ GameObject:
   - component: {fileID: 224578924982345526}
   - component: {fileID: 222700627562719824}
   - component: {fileID: 114000030437076836}
+  - component: {fileID: 114220463854081726}
   m_Layer: 5
   m_Name: Text Highlighted
   m_TagString: Untagged
@@ -55,6 +57,7 @@ GameObject:
   - component: {fileID: 224743806970246882}
   - component: {fileID: 222727630746753994}
   - component: {fileID: 114546186425747624}
+  - component: {fileID: 114111711209815172}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -74,6 +77,8 @@ GameObject:
   - component: {fileID: 114568404512466010}
   - component: {fileID: 114234834791426226}
   - component: {fileID: 95780289005088154}
+  - component: {fileID: 114415467651174478}
+  - component: {fileID: 114501112160397132}
   m_Layer: 5
   m_Name: Night
   m_TagString: Untagged
@@ -132,6 +137,30 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: NIGHT
+--- !u!114 &114111711209815172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426780263556030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 47baaf32-980d-4013-8390-3ef740e99732
+--- !u!114 &114220463854081726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343949329425696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: e2393c84-335c-4fd5-b28c-c15f5340f335
 --- !u!114 &114234834791426226
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -173,6 +202,37 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114415467651174478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1937372264736250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1937372264736250}
+    - {fileID: 1426780263556030}
+    - {fileID: 1343949329425696}
+    - {fileID: 1304115642850828}
+  _assetGuid: 7cf95bd52071f424e85a8101dff97b68
+--- !u!114 &114501112160397132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1937372264736250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 0434d3ab-c42e-44b3-995b-8b5dabf44e71
 --- !u!114 &114546186425747624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -260,6 +320,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: NIGHT
+--- !u!114 &114949475034957464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1304115642850828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 608c0058-0a7f-475c-899a-3401fc8dd1ae
 --- !u!222 &222126650432458236
 CanvasRenderer:
   m_ObjectHideFlags: 1

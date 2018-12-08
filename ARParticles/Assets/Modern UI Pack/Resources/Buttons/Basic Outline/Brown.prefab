@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224533831002651052}
   - component: {fileID: 222219996172302318}
   - component: {fileID: 114532341219428682}
+  - component: {fileID: 114353537154081032}
   m_Layer: 5
   m_Name: Text Highlighted
   m_TagString: Untagged
@@ -40,6 +41,8 @@ GameObject:
   - component: {fileID: 114575793404481704}
   - component: {fileID: 114250861557963838}
   - component: {fileID: 95326948536888602}
+  - component: {fileID: 114194027109504118}
+  - component: {fileID: 114234776220400728}
   m_Layer: 5
   m_Name: Brown
   m_TagString: Untagged
@@ -57,6 +60,7 @@ GameObject:
   - component: {fileID: 224897934821472480}
   - component: {fileID: 222191576994177788}
   - component: {fileID: 114478675001994336}
+  - component: {fileID: 114250507070614256}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -74,6 +78,7 @@ GameObject:
   - component: {fileID: 224500153735389646}
   - component: {fileID: 222334634582624718}
   - component: {fileID: 114602094755364816}
+  - component: {fileID: 114972130806840288}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -99,6 +104,49 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114194027109504118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141445005410352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1141445005410352}
+    - {fileID: 1347873244840598}
+    - {fileID: 1101456953731262}
+    - {fileID: 1681595857184960}
+  _assetGuid: 212121c318a04174cb05126ff951ee7b
+--- !u!114 &114234776220400728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141445005410352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 79cc8e64-2d51-4c06-9019-cca7b4ac8f96
+--- !u!114 &114250507070614256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1347873244840598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 20f74a39-8dc0-4618-a1cc-789da1793190
 --- !u!114 &114250861557963838
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -140,6 +188,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114353537154081032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101456953731262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 2851bafa-8442-4fed-88df-e9e1be1fb152
 --- !u!114 &114478675001994336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -260,6 +320,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: BROWN
+--- !u!114 &114972130806840288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1681595857184960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: e32926b3-ec0e-4f8e-afb2-636be9bec8d2
 --- !u!222 &222191576994177788
 CanvasRenderer:
   m_ObjectHideFlags: 1

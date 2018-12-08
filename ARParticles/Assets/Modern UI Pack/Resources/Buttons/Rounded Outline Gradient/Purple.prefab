@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 222080005678411854}
   - component: {fileID: 114591281787234374}
   - component: {fileID: 114776641593959492}
+  - component: {fileID: 114939708142350044}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -42,6 +43,8 @@ GameObject:
   - component: {fileID: 114232874541903650}
   - component: {fileID: 95076638330900462}
   - component: {fileID: 114822693788825020}
+  - component: {fileID: 114969908626535708}
+  - component: {fileID: 114320324814082090}
   m_Layer: 5
   m_Name: Purple
   m_TagString: Untagged
@@ -59,6 +62,7 @@ GameObject:
   - component: {fileID: 224208896751051316}
   - component: {fileID: 222732026622248416}
   - component: {fileID: 114867879604836180}
+  - component: {fileID: 114639579974327886}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -76,6 +80,7 @@ GameObject:
   - component: {fileID: 224410777229800496}
   - component: {fileID: 222896699123527708}
   - component: {fileID: 114611426800077326}
+  - component: {fileID: 114845292065030802}
   m_Layer: 5
   m_Name: Text Highlighted
   m_TagString: Untagged
@@ -142,6 +147,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114320324814082090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1434836526818598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 9ecc0300-76db-4ff1-828f-bd70c5d70d69
 --- !u!114 &114591281787234374
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -202,6 +219,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: PURPLE
+--- !u!114 &114639579974327886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1595903906620530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 824921b3-0392-4e73-96f2-3cc74d148fc3
 --- !u!114 &114776641593959492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -288,6 +317,18 @@ MonoBehaviour:
   _gradientType: 0
   _blendMode: 2
   _offset: 0
+--- !u!114 &114845292065030802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994076942272968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 9bb08b84-1a0c-4bfc-9905-8ef3799521f6
 --- !u!114 &114867879604836180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -348,6 +389,37 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114939708142350044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1123989969849022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: f021f508-921f-4ff6-8c17-61e96b8c9f23
+--- !u!114 &114969908626535708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1434836526818598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1434836526818598}
+    - {fileID: 1123989969849022}
+    - {fileID: 1994076942272968}
+    - {fileID: 1595903906620530}
+  _assetGuid: 11b7396831bc0a748b89f8be6b1a722b
 --- !u!222 &222080005678411854
 CanvasRenderer:
   m_ObjectHideFlags: 1

@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 114341976972355226}
   - component: {fileID: 114946515375627428}
   - component: {fileID: 114603731495261978}
+  - component: {fileID: 114569178833927700}
+  - component: {fileID: 114144889530605268}
   m_Layer: 5
   m_Name: Blue
   m_TagString: Untagged
@@ -40,6 +42,7 @@ GameObject:
   - component: {fileID: 224866341875822632}
   - component: {fileID: 222363636740413620}
   - component: {fileID: 114363465006011486}
+  - component: {fileID: 114207087167516714}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -47,6 +50,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114144889530605268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106438620207740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 8117e63b-0886-4eb1-b34e-284257c0e0e6
+--- !u!114 &114207087167516714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1760568491811880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 491de7f1-05ae-4182-b46a-7799985a9238
 --- !u!114 &114341976972355226
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -107,6 +134,23 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: BLUE
+--- !u!114 &114569178833927700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106438620207740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1106438620207740}
+    - {fileID: 1760568491811880}
+  _assetGuid: fea3499422a914d40b0d94e01aae43f0
 --- !u!114 &114603731495261978
 MonoBehaviour:
   m_ObjectHideFlags: 1

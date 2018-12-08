@@ -14,6 +14,7 @@ public class UIFuegosArticiales : UIController {
     void Start()
     {
         emissors.maxValue = pss.Length;
+        Active();
     }
 
     // Update is called once per frame

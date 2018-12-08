@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 114083009773931384}
   - component: {fileID: 114526652387590136}
   - component: {fileID: 95519514733312636}
+  - component: {fileID: 114985064200963270}
+  - component: {fileID: 114186414074375354}
   m_Layer: 5
   m_Name: Purple
   m_TagString: Untagged
@@ -40,6 +42,7 @@ GameObject:
   - component: {fileID: 224374636130976038}
   - component: {fileID: 222962974974347674}
   - component: {fileID: 114693020217917616}
+  - component: {fileID: 114062215191657790}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -57,6 +60,7 @@ GameObject:
   - component: {fileID: 224207546230971632}
   - component: {fileID: 222988027886640224}
   - component: {fileID: 114973962945746290}
+  - component: {fileID: 114421726840435492}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -74,6 +78,7 @@ GameObject:
   - component: {fileID: 224016961597789692}
   - component: {fileID: 222867624944755276}
   - component: {fileID: 114362017784699768}
+  - component: {fileID: 114204660189470108}
   m_Layer: 5
   m_Name: Text Highlighted
   m_TagString: Untagged
@@ -99,6 +104,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114062215191657790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1282629148919094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 8223f62b-dce2-4268-ab8a-58d8a7de9308
 --- !u!114 &114083009773931384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,6 +143,30 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114186414074375354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205427203450838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 0a1a6211-ad1c-4b07-a724-659963e6b929
+--- !u!114 &114204660189470108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848658183639956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 024b481a-c1f5-45f2-a2e9-eb462c1f7a5e
 --- !u!114 &114362017784699768
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -159,6 +200,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: PURPLE
+--- !u!114 &114421726840435492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721708049203418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3451389c-d334-4939-9813-12c9b3de7ee0
 --- !u!114 &114526652387590136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -260,6 +313,25 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: PURPLE
+--- !u!114 &114985064200963270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205427203450838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1205427203450838}
+    - {fileID: 1282629148919094}
+    - {fileID: 1848658183639956}
+    - {fileID: 1721708049203418}
+  _assetGuid: 86cb4e3642063504bbeb097c0e7d397b
 --- !u!222 &222593948021769608
 CanvasRenderer:
   m_ObjectHideFlags: 1

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224878106408023502}
   - component: {fileID: 222917753517900402}
   - component: {fileID: 114966395414746552}
+  - component: {fileID: 114799636481458202}
   m_Layer: 5
   m_Name: Dummy
   m_TagString: Untagged
@@ -36,6 +37,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224180662834579404}
+  - component: {fileID: 114908639508049154}
   m_Layer: 5
   m_Name: Handle Slide Area
   m_TagString: Untagged
@@ -53,6 +55,7 @@ GameObject:
   - component: {fileID: 224556226196698156}
   - component: {fileID: 222304171811583726}
   - component: {fileID: 114550363445701648}
+  - component: {fileID: 114781055996409154}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -71,6 +74,7 @@ GameObject:
   - component: {fileID: 222447334527206176}
   - component: {fileID: 114848249279593132}
   - component: {fileID: 114314001941445126}
+  - component: {fileID: 114131281206196128}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -87,6 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224607551345001704}
   - component: {fileID: 222090154298017918}
+  - component: {fileID: 114564568837775886}
   m_Layer: 5
   m_Name: Fill Area
   m_TagString: Untagged
@@ -104,6 +109,7 @@ GameObject:
   - component: {fileID: 224602918796709908}
   - component: {fileID: 222372845770980280}
   - component: {fileID: 114062227142066928}
+  - component: {fileID: 114031052761428010}
   m_Layer: 5
   m_Name: Handle
   m_TagString: Untagged
@@ -121,6 +127,7 @@ GameObject:
   - component: {fileID: 224800348164723744}
   - component: {fileID: 222249018063224916}
   - component: {fileID: 114260070680101836}
+  - component: {fileID: 114268017449087756}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -138,6 +145,7 @@ GameObject:
   - component: {fileID: 224479070197194742}
   - component: {fileID: 222513633560619254}
   - component: {fileID: 114574281673825840}
+  - component: {fileID: 114167951447155592}
   m_Layer: 5
   m_Name: Value
   m_TagString: Untagged
@@ -157,6 +165,8 @@ GameObject:
   - component: {fileID: 114035879796120202}
   - component: {fileID: 222525079998770428}
   - component: {fileID: 114115189270652860}
+  - component: {fileID: 114541262461548298}
+  - component: {fileID: 114113216522557950}
   m_Layer: 5
   m_Name: Gradient (Value)
   m_TagString: Untagged
@@ -164,6 +174,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114031052761428010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896803932523532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 2141d28a-4c27-4817-8551-7cfb8a0c30ae
 --- !u!114 &114035879796120202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -203,6 +225,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114113216522557950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1968571481541048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 145c8014-f02f-4c07-81fc-e74db718c3d0
 --- !u!114 &114115189270652860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -220,6 +254,30 @@ MonoBehaviour:
   showValue: 1
   showPopupValue: 0
   useRoundValue: 1
+--- !u!114 &114131281206196128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712568670054722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: a58fb84a-c32c-4ee9-a059-33dc9cbade71
+--- !u!114 &114167951447155592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963034884659570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: d75e5a57-b7b5-42de-902c-fba205691a9d
 --- !u!114 &114209413506577494
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -295,6 +353,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114268017449087756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926510629433170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: f44123ff-0f25-4393-a22e-4400fbef0f52
 --- !u!114 &114314001941445126
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -307,6 +377,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
+--- !u!114 &114541262461548298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1968571481541048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1968571481541048}
+    - {fileID: 1583820450073092}
+    - {fileID: 1712568670054722}
+    - {fileID: 1712648972325428}
+    - {fileID: 1926510629433170}
+    - {fileID: 1327576516935816}
+    - {fileID: 1896803932523532}
+    - {fileID: 1963034884659570}
+    - {fileID: 1251325287129536}
+  _assetGuid: 1825bc935af2c1f4dbb479e6322cd22d
 --- !u!114 &114550363445701648
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -334,6 +428,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114564568837775886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712648972325428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 86fdce10-e06b-4fab-b2a8-fb308bafa3b5
 --- !u!114 &114574281673825840
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -367,6 +473,30 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 100%
+--- !u!114 &114781055996409154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1583820450073092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 61336805-9ff3-4146-b81b-3d598d98fdbb
+--- !u!114 &114799636481458202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1251325287129536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: aeb49a23-8763-4c7c-8240-c1cd5d8dc060
 --- !u!114 &114848249279593132
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -394,6 +524,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114908639508049154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1327576516935816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 7bf958dd-4c0c-4023-8689-ba7addb3aa7c
 --- !u!114 &114966395414746552
 MonoBehaviour:
   m_ObjectHideFlags: 1

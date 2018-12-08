@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 114741009900703152}
   - component: {fileID: 114306662557143512}
   - component: {fileID: 114954339388878080}
+  - component: {fileID: 114912880629608816}
+  - component: {fileID: 114591890614146882}
   m_Layer: 5
   m_Name: Pink
   m_TagString: Untagged
@@ -40,6 +42,7 @@ GameObject:
   - component: {fileID: 224362947861558182}
   - component: {fileID: 222543267002701316}
   - component: {fileID: 114238598751116986}
+  - component: {fileID: 114378409501079714}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -121,6 +124,30 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114378409501079714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929586461863614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: fcf03f08-0d15-40bb-90e1-c06bf91280d3
+--- !u!114 &114591890614146882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791699206508222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: b69df2dc-b8a5-4fe2-8c1a-85baee1b311b
 --- !u!114 &114741009900703152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -148,6 +175,23 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114912880629608816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791699206508222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1791699206508222}
+    - {fileID: 1929586461863614}
+  _assetGuid: 381c8036e244a8345bf6eb2093922dfc
 --- !u!114 &114954339388878080
 MonoBehaviour:
   m_ObjectHideFlags: 1

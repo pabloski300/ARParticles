@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224399346076780818}
   - component: {fileID: 222250448284101306}
   - component: {fileID: 114588645050026480}
+  - component: {fileID: 114836429525001186}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -40,6 +41,8 @@ GameObject:
   - component: {fileID: 114525569923175234}
   - component: {fileID: 114938890177238152}
   - component: {fileID: 114488474835836552}
+  - component: {fileID: 114199872401778334}
+  - component: {fileID: 114927535414669004}
   m_Layer: 5
   m_Name: White
   m_TagString: Untagged
@@ -47,6 +50,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114199872401778334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1988194154684926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1988194154684926}
+    - {fileID: 1506084373285434}
+  _assetGuid: c600969e42fcac74fa8f8a51f26ccc0e
 --- !u!114 &114488474835836552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,6 +170,30 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: WHITE
+--- !u!114 &114836429525001186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1506084373285434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 95b269e4-1cfc-4630-a983-5510fe8c00ab
+--- !u!114 &114927535414669004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1988194154684926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: f55027e8-27ae-402b-b063-2eb521a8e183
 --- !u!114 &114938890177238152
 MonoBehaviour:
   m_ObjectHideFlags: 1

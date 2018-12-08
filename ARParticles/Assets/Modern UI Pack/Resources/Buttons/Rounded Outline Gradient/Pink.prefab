@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224334529101301978}
   - component: {fileID: 222957677947838198}
   - component: {fileID: 114937167237583638}
+  - component: {fileID: 114706649587727750}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -39,6 +40,7 @@ GameObject:
   - component: {fileID: 222083999642085926}
   - component: {fileID: 114435637719247480}
   - component: {fileID: 114322722893738120}
+  - component: {fileID: 114992042790391278}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -59,6 +61,8 @@ GameObject:
   - component: {fileID: 114654018548726446}
   - component: {fileID: 95407572862171750}
   - component: {fileID: 114728559116624736}
+  - component: {fileID: 114376251398681148}
+  - component: {fileID: 114199107260957884}
   m_Layer: 5
   m_Name: Pink
   m_TagString: Untagged
@@ -76,6 +80,7 @@ GameObject:
   - component: {fileID: 224368202669259838}
   - component: {fileID: 222897666388425584}
   - component: {fileID: 114734684942819898}
+  - component: {fileID: 114771426637946804}
   m_Layer: 5
   m_Name: Text Highlighted
   m_TagString: Untagged
@@ -101,6 +106,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114199107260957884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1489653871515626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 51e74638-16b4-47cd-8d53-dfcf87410d59
 --- !u!114 &114228837845512436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -171,6 +188,25 @@ MonoBehaviour:
   _gradientType: 0
   _blendMode: 2
   _offset: 0
+--- !u!114 &114376251398681148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1489653871515626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1489653871515626}
+    - {fileID: 1260183488980936}
+    - {fileID: 1888682360368120}
+    - {fileID: 1020528333645008}
+  _assetGuid: 5d86c4e083262b549afa579eb7c8def7
 --- !u!114 &114435637719247480
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -239,6 +275,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114706649587727750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020528333645008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 786d4846-e887-48ae-99bb-589f99fa1b91
 --- !u!114 &114728559116624736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -315,6 +363,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: PINK
+--- !u!114 &114771426637946804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1888682360368120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 305f9eb6-c888-4efc-a75c-4b0c5efd86af
 --- !u!114 &114937167237583638
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -348,6 +408,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: PINK
+--- !u!114 &114992042790391278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260183488980936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3140b312-9645-4a9f-b35f-9268ab3e6f5d
 --- !u!222 &222083999642085926
 CanvasRenderer:
   m_ObjectHideFlags: 1

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224385000007047224}
   - component: {fileID: 222277496574248128}
   - component: {fileID: 114980440956842196}
+  - component: {fileID: 114990031547580586}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -40,6 +41,8 @@ GameObject:
   - component: {fileID: 114853558098488322}
   - component: {fileID: 114993817960647734}
   - component: {fileID: 114986180070896866}
+  - component: {fileID: 114996507789297770}
+  - component: {fileID: 114580924333846606}
   m_Layer: 5
   m_Name: Purple
   m_TagString: Untagged
@@ -47,6 +50,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114580924333846606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1409544775269644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: fdd2cf63-d056-40ae-8a84-9bf8cbb5dd9a
 --- !u!114 &114853558098488322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,6 +165,18 @@ MonoBehaviour:
   _gradientType: 0
   _blendMode: 2
   _offset: 0
+--- !u!114 &114990031547580586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034434893061926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: cab9a8e5-0bc4-4858-9568-8553c3f70182
 --- !u!114 &114993817960647734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -191,6 +218,23 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114996507789297770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1409544775269644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1409544775269644}
+    - {fileID: 1034434893061926}
+  _assetGuid: bca0613880a8cfb4aa403ca0b267fa64
 --- !u!222 &222277496574248128
 CanvasRenderer:
   m_ObjectHideFlags: 1

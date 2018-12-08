@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 222062622261931070}
   - component: {fileID: 114026727757746078}
   - component: {fileID: 114195230043512218}
+  - component: {fileID: 114302412282591916}
+  - component: {fileID: 114061144380608120}
   m_Layer: 5
   m_Name: White
   m_TagString: Untagged
@@ -39,6 +41,7 @@ GameObject:
   - component: {fileID: 224161872750980638}
   - component: {fileID: 222867817963175774}
   - component: {fileID: 114357609312079462}
+  - component: {fileID: 114846360262250216}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -73,6 +76,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114061144380608120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1282976987977410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: cd1ccc62-1ef2-4d4d-b22c-25b64f9a4036
 --- !u!114 &114195230043512218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -114,6 +129,23 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114302412282591916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1282976987977410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1282976987977410}
+    - {fileID: 1964265444930698}
+  _assetGuid: dbcd8777a24c10d43b3593c459fadcc2
 --- !u!114 &114357609312079462
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -141,6 +173,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114846360262250216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964265444930698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: a51135ad-735c-451b-b2c3-38fd585ee664
 --- !u!222 &222062622261931070
 CanvasRenderer:
   m_ObjectHideFlags: 1

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224572190935789288}
   - component: {fileID: 222488015529641790}
   - component: {fileID: 114226409445295732}
+  - component: {fileID: 114487558824506922}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -39,6 +40,8 @@ GameObject:
   - component: {fileID: 222789158074073578}
   - component: {fileID: 114722397314560740}
   - component: {fileID: 114507629217501184}
+  - component: {fileID: 114324469528275952}
+  - component: {fileID: 114627462529182850}
   m_Layer: 5
   m_Name: Orange
   m_TagString: Untagged
@@ -79,6 +82,35 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: ORANGE
+--- !u!114 &114324469528275952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924595641718912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1924595641718912}
+    - {fileID: 1876983842677202}
+  _assetGuid: a76e23e6dd72a8f4dbdefc46710338e0
+--- !u!114 &114487558824506922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876983842677202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 15fe86b2-62b6-4af2-9801-cdd8cb8f4386
 --- !u!114 &114507629217501184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -120,6 +152,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114627462529182850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924595641718912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 17571bad-93d8-4a9f-a03d-e6b8317d1644
 --- !u!114 &114722397314560740
 MonoBehaviour:
   m_ObjectHideFlags: 1

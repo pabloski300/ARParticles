@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224849865943296040}
   - component: {fileID: 222567693201747136}
   - component: {fileID: 114710839583729130}
+  - component: {fileID: 114987895085675704}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -39,6 +40,8 @@ GameObject:
   - component: {fileID: 222140019086664466}
   - component: {fileID: 114050013568296106}
   - component: {fileID: 114757670595140638}
+  - component: {fileID: 114856335874590172}
+  - component: {fileID: 114498916551440644}
   m_Layer: 5
   m_Name: White
   m_TagString: Untagged
@@ -73,6 +76,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114498916551440644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1936196088178212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 5aee4fa7-4777-47fe-8b25-031b30d1af06
 --- !u!114 &114710839583729130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,6 +162,35 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114856335874590172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1936196088178212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1936196088178212}
+    - {fileID: 1804100800274040}
+  _assetGuid: 82f88af774792794bbcc4bed53218fa5
+--- !u!114 &114987895085675704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1804100800274040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 5aa90270-657f-453d-b0d5-a8d07fccbc10
 --- !u!222 &222140019086664466
 CanvasRenderer:
   m_ObjectHideFlags: 1

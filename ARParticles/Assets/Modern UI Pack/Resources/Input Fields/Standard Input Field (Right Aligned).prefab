@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224100298714046774}
   - component: {fileID: 222971928247412138}
   - component: {fileID: 114926978250173458}
+  - component: {fileID: 114883469854288992}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -38,6 +39,7 @@ GameObject:
   - component: {fileID: 224226156682192304}
   - component: {fileID: 222750471517986196}
   - component: {fileID: 114188400288331308}
+  - component: {fileID: 114506314176659372}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -55,6 +57,7 @@ GameObject:
   - component: {fileID: 224471294421603762}
   - component: {fileID: 222498632304107512}
   - component: {fileID: 114577872695392588}
+  - component: {fileID: 114854169159578440}
   m_Layer: 5
   m_Name: Placeholder
   m_TagString: Untagged
@@ -72,6 +75,7 @@ GameObject:
   - component: {fileID: 224117293023653590}
   - component: {fileID: 222311081852810968}
   - component: {fileID: 114782824732135638}
+  - component: {fileID: 114242012103401148}
   m_Layer: 5
   m_Name: Filled
   m_TagString: Untagged
@@ -92,6 +96,8 @@ GameObject:
   - component: {fileID: 114595686216179422}
   - component: {fileID: 95382343138111328}
   - component: {fileID: 114255223562334362}
+  - component: {fileID: 114445741688360586}
+  - component: {fileID: 114118584138586644}
   m_Layer: 5
   m_Name: Standard Input Field (Right Aligned)
   m_TagString: Untagged
@@ -110,6 +116,7 @@ GameObject:
   - component: {fileID: 222032956832078206}
   - component: {fileID: 114939553861098312}
   - component: {fileID: 114178491637356738}
+  - component: {fileID: 114294965298814276}
   m_Layer: 5
   m_Name: Field Trigger
   m_TagString: Untagged
@@ -125,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224675606166850736}
+  - component: {fileID: 114799146087488190}
   m_Layer: 5
   m_Name: EDIT TEXT FROM PARENT OBJECT
   m_TagString: Untagged
@@ -213,6 +221,18 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
+--- !u!114 &114118584138586644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570686334321706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 34732c37-a4bf-437a-981c-751927a91a5a
 --- !u!114 &114178491637356738
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -293,6 +313,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &114242012103401148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1407693385711788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: d49ed704-7e5c-42e8-9146-9fb346fded58
 --- !u!114 &114255223562334362
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -323,6 +355,52 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &114294965298814276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1959462797606214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: df2a5160-0b63-4087-a5ca-19fba45f42a8
+--- !u!114 &114445741688360586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570686334321706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1570686334321706}
+    - {fileID: 1998619302512508}
+    - {fileID: 1959462797606214}
+    - {fileID: 1305713363051056}
+    - {fileID: 1125452907219034}
+    - {fileID: 1004883742350826}
+    - {fileID: 1407693385711788}
+  _assetGuid: 31898d8437e54564e9fc2942279ad2d2
+--- !u!114 &114506314176659372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1125452907219034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 75b93429-c7e7-4c3e-8b6e-4b30d2bd9663
 --- !u!114 &114577872695392588
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -397,6 +475,42 @@ MonoBehaviour:
   m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 1
+--- !u!114 &114799146087488190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998619302512508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 01abfa21-8bf3-46c8-b1f4-7572db77ce37
+--- !u!114 &114854169159578440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1305713363051056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 26a975dd-b0f0-4d6c-b7e2-ed32d81cf749
+--- !u!114 &114883469854288992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004883742350826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 45a62f96-e91a-44d1-ad45-67e74042d987
 --- !u!114 &114926978250173458
 MonoBehaviour:
   m_ObjectHideFlags: 1

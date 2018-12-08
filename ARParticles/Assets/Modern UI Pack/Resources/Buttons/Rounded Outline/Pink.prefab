@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224482179730663604}
   - component: {fileID: 222763390692627628}
   - component: {fileID: 114243703964211912}
+  - component: {fileID: 114611069693329726}
   m_Layer: 5
   m_Name: Text Highlighted
   m_TagString: Untagged
@@ -38,6 +39,7 @@ GameObject:
   - component: {fileID: 224215823542486312}
   - component: {fileID: 222076011195463430}
   - component: {fileID: 114212589592441376}
+  - component: {fileID: 114277760331659106}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -57,6 +59,8 @@ GameObject:
   - component: {fileID: 114757701576215642}
   - component: {fileID: 114072924293760800}
   - component: {fileID: 95751505785891078}
+  - component: {fileID: 114578845764191716}
+  - component: {fileID: 114043253372288706}
   m_Layer: 5
   m_Name: Pink
   m_TagString: Untagged
@@ -74,6 +78,7 @@ GameObject:
   - component: {fileID: 224380982269542530}
   - component: {fileID: 222892759002738256}
   - component: {fileID: 114487809006694128}
+  - component: {fileID: 114726901457940764}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -99,6 +104,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114043253372288706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1354235552496846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: f62bc64c-67e9-4b55-bc97-2684f2a9032c
 --- !u!114 &114072924293760800
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -200,6 +217,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: PINK
+--- !u!114 &114277760331659106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285878899542480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 8a94b1f5-8936-4d94-989c-d8fd93be7c6c
 --- !u!114 &114487809006694128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -233,6 +262,49 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: PINK
+--- !u!114 &114578845764191716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1354235552496846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1354235552496846}
+    - {fileID: 1285878899542480}
+    - {fileID: 1181175478174240}
+    - {fileID: 1548665063422100}
+  _assetGuid: bd88f73754290f249a3c05df8937c348
+--- !u!114 &114611069693329726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1181175478174240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3241c4cd-6c6e-4815-b425-cdc9f18f03bd
+--- !u!114 &114726901457940764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1548665063422100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3169dc5f-9d21-429f-b33b-f9a3d418efb7
 --- !u!114 &114757701576215642
 MonoBehaviour:
   m_ObjectHideFlags: 1
