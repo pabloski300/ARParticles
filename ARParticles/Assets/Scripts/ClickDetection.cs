@@ -29,7 +29,7 @@ public class ClickDetection : MonoBehaviour {
 
     internal bool hasSelected()
     {
-        return selected == null;
+        return selected != null;
     }
 
     // Update is called once per frame

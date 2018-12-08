@@ -14,10 +14,10 @@ public class ParticleTrackEvent : DefaultTrackableEventHandler
     protected override void OnTrackingFound()
     {
         base.OnTrackingFound();
-        particleUIController.SetActive(true);
         if (!ClickDetection.Instance.hasSelected())
         {
             ClickDetection.Instance.setSelected(particleUIController);
+            particleUIController.SetActive(true);
         }
     }
 

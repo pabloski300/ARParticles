@@ -12,18 +12,25 @@ public class UIMainMenu : MonoBehaviour {
     {
         UI.SetActive(false);
         Load.SetActive(true);
-        SceneManager.LoadScene(scene);
+        StartCoroutine(SceneLoad(scene));
     }
 
     IEnumerator SceneLoad(string scene)
     {
         AsyncOperation sceneLoad = SceneManager.LoadSceneAsync(scene);
-        while (!sceneLoad.isDone)
+        
+        while (sceneLoad.progress <0.9)
         {
-            Bar.currentPercent = sceneLoad.progress;
+            Bar.currentPercent = sceneLoad.progress*100;
            
             yield return null;
         }
+        
     }
 
+
+    public void ChangeSceneTo(string scene)
+    {
+        SceneManager.LoadScene(scene);
+    }
 }
