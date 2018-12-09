@@ -24,7 +24,7 @@ public class UIBolaDeFuego : UIController {
                 var main = pss[i].main;
                 if (i < 2)
                 {
-                    main.startColor = new Color(red.value, green.value, blue.value,0.05f);
+                    main.startColor = new Color(red.value, green.value, blue.value,0.2f);
                 }
                 else
                 {
