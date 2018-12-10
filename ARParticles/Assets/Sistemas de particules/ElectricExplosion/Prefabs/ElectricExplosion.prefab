@@ -221,6 +221,8 @@ GameObject:
   - component: {fileID: 199884884444772566}
   - component: {fileID: 114422308940190060}
   - component: {fileID: 114463408567944340}
+  - component: {fileID: 65528049346806804}
+  - component: {fileID: 114326738713452350}
   m_Layer: 0
   m_Name: ElectricExplosion
   m_TagString: Untagged
@@ -491,6 +493,18 @@ Transform:
   m_Father: {fileID: 4850611620176974}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!65 &65528049346806804
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666364099957418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6626818, y: 1.6511253, z: 1.6567357}
+  m_Center: {x: -0.011556268, y: 0.0057780743, z: 0.008584142}
 --- !u!114 &114003541384781430
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -563,6 +577,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _guid: a8c7300d-e796-4477-bd24-ff78466f4ac3
+--- !u!114 &114326738713452350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666364099957418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd45d2736033644b85c52ed8f669aa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotSpeed: 20
+  active: 0
 --- !u!114 &114358207968922004
 MonoBehaviour:
   m_ObjectHideFlags: 1
