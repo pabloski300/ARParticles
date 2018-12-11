@@ -7,5 +7,13 @@ public class UIController : MonoBehaviour
     public void SetActive(bool active)
     {
         Canvas.SetActive(active);
+        if (active)
+        {
+            ExpandMenu[] es = Canvas.GetComponentsInChildren<ExpandMenu>();
+            foreach (ExpandMenu e in es)
+            {
+                e.Restart();
+            }
+        }
     }
 }

@@ -17,8 +17,10 @@ public class ParticleTrackEvent : DefaultTrackableEventHandler
         if (!ClickDetection.Instance.hasSelected())
         {
             ClickDetection.Instance.setSelected(particleUIController);
-            particleUIController.SetActive(true);
+            //particleUIController.SetActive(true);
         }
+
+
     }
 
     protected override void OnTrackingLost()
